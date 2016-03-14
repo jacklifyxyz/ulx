@@ -1,3 +1,5 @@
+# NOTICE
+This is a fork of TeamUlysses's ulx admin mod for Garry's Mod. It contains small changes utilized on jacklify.xyz servers that we have made available but aren't meant for the main repository. 
 # ULX
 ULX is an admin mod for [Garry's Mod](http://garrysmod.com/).
 
