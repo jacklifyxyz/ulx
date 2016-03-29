@@ -251,9 +251,9 @@ local function voteKickDone2( t, target, time, ply, reason )
 
 	if shouldKick then
 		if reason and reason ~= "" then
-			ULib.ban( target, 30, "Vote kick successful, come back in 30 minutes. (" .. reason .. ")" )
+			ULib.ban( target, 30, "Vote kick successful. You have a temporary 30 minute cooldown before you can play again. (" .. reason .. ")" )
 		else
-			ULib.ban( target, 30, "Vote kick successful, come back in 30 minutes." )
+			ULib.ban( target, 30, "Vote kick successful. You have a temporary 30 minute cooldown before you can play again." )
 		end
 	end
 end
